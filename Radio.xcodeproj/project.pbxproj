@@ -9,62 +9,28 @@
 /* Begin PBXBuildFile section */
 		99072C67211AB924008F4DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99072C66211AB924008F4DCB /* AppDelegate.swift */; };
 		99072C69211AB924008F4DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99072C68211AB924008F4DCB /* ViewController.swift */; };
-		99072C6C211AB924008F4DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99072C6A211AB924008F4DCB /* Main.storyboard */; };
-		99072C6E211AB925008F4DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99072C6D211AB925008F4DCB /* Assets.xcassets */; };
-		99072C71211AB925008F4DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99072C6F211AB925008F4DCB /* LaunchScreen.storyboard */; };
-		99072C7C211AB925008F4DCB /* RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99072C7B211AB925008F4DCB /* RadioTests.swift */; };
-		99072C87211AB925008F4DCB /* RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99072C86211AB925008F4DCB /* RadioUITests.swift */; };
+		99072C99211AC098008F4DCB /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99072C98211AC098008F4DCB /* StationTableViewCell.swift */; };
+		99072CA2211ACADA008F4DCB /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99072CA1211ACADA008F4DCB /* RadioStation.swift */; };
+		990AE297211C31B600B084C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990AE296211C31B600B084C2 /* Assets.xcassets */; };
+		994D7434211EB4D00018C6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994D7433211EB4D00018C6BF /* LaunchScreen.storyboard */; };
+		994D7438211EB51D0018C6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994D7437211EB51D0018C6BF /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		99072C78211AB925008F4DCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 99072C5B211AB924008F4DCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 99072C62211AB924008F4DCB;
-			remoteInfo = Radio;
-		};
-		99072C83211AB925008F4DCB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 99072C5B211AB924008F4DCB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 99072C62211AB924008F4DCB;
-			remoteInfo = Radio;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		99072C63211AB924008F4DCB /* Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99072C66211AB924008F4DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99072C68211AB924008F4DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99072C6B211AB924008F4DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99072C6D211AB925008F4DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		99072C70211AB925008F4DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99072C72211AB925008F4DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99072C77211AB925008F4DCB /* RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		99072C7B211AB925008F4DCB /* RadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioTests.swift; sourceTree = "<group>"; };
-		99072C7D211AB925008F4DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99072C82211AB925008F4DCB /* RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		99072C86211AB925008F4DCB /* RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioUITests.swift; sourceTree = "<group>"; };
-		99072C88211AB925008F4DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99072C98211AC098008F4DCB /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		99072CA1211ACADA008F4DCB /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		99072CB0211B0639008F4DCB /* Radio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Radio.entitlements; sourceTree = "<group>"; };
+		990AE296211C31B600B084C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		994D7433211EB4D00018C6BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		994D7437211EB51D0018C6BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		99072C60211AB924008F4DCB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99072C74211AB925008F4DCB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99072C7F211AB925008F4DCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				99072C65211AB924008F4DCB /* Radio */,
-				99072C7A211AB925008F4DCB /* RadioTests */,
-				99072C85211AB925008F4DCB /* RadioUITests */,
 				99072C64211AB924008F4DCB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				99072C63211AB924008F4DCB /* Radio.app */,
-				99072C77211AB925008F4DCB /* RadioTests.xctest */,
-				99072C82211AB925008F4DCB /* RadioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +59,17 @@
 		99072C65211AB924008F4DCB /* Radio */ = {
 			isa = PBXGroup;
 			children = (
+				99072CB0211B0639008F4DCB /* Radio.entitlements */,
 				99072C66211AB924008F4DCB /* AppDelegate.swift */,
 				99072C68211AB924008F4DCB /* ViewController.swift */,
-				99072C6A211AB924008F4DCB /* Main.storyboard */,
-				99072C6D211AB925008F4DCB /* Assets.xcassets */,
-				99072C6F211AB925008F4DCB /* LaunchScreen.storyboard */,
+				99072CA1211ACADA008F4DCB /* RadioStation.swift */,
+				99072C98211AC098008F4DCB /* StationTableViewCell.swift */,
+				994D7437211EB51D0018C6BF /* Main.storyboard */,
+				994D7433211EB4D00018C6BF /* LaunchScreen.storyboard */,
 				99072C72211AB925008F4DCB /* Info.plist */,
+				990AE296211C31B600B084C2 /* Assets.xcassets */,
 			);
 			path = Radio;
-			sourceTree = "<group>";
-		};
-		99072C7A211AB925008F4DCB /* RadioTests */ = {
-			isa = PBXGroup;
-			children = (
-				99072C7B211AB925008F4DCB /* RadioTests.swift */,
-				99072C7D211AB925008F4DCB /* Info.plist */,
-			);
-			path = RadioTests;
-			sourceTree = "<group>";
-		};
-		99072C85211AB925008F4DCB /* RadioUITests */ = {
-			isa = PBXGroup;
-			children = (
-				99072C86211AB925008F4DCB /* RadioUITests.swift */,
-				99072C88211AB925008F4DCB /* Info.plist */,
-			);
-			path = RadioUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +92,6 @@
 			productReference = 99072C63211AB924008F4DCB /* Radio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		99072C76211AB925008F4DCB /* RadioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99072C8E211AB925008F4DCB /* Build configuration list for PBXNativeTarget "RadioTests" */;
-			buildPhases = (
-				99072C73211AB925008F4DCB /* Sources */,
-				99072C74211AB925008F4DCB /* Frameworks */,
-				99072C75211AB925008F4DCB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				99072C79211AB925008F4DCB /* PBXTargetDependency */,
-			);
-			name = RadioTests;
-			productName = RadioTests;
-			productReference = 99072C77211AB925008F4DCB /* RadioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		99072C81211AB925008F4DCB /* RadioUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99072C91211AB925008F4DCB /* Build configuration list for PBXNativeTarget "RadioUITests" */;
-			buildPhases = (
-				99072C7E211AB925008F4DCB /* Sources */,
-				99072C7F211AB925008F4DCB /* Frameworks */,
-				99072C80211AB925008F4DCB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				99072C84211AB925008F4DCB /* PBXTargetDependency */,
-			);
-			name = RadioUITests;
-			productName = RadioUITests;
-			productReference = 99072C82211AB925008F4DCB /* RadioUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +104,14 @@
 				TargetAttributes = {
 					99072C62211AB924008F4DCB = {
 						CreatedOnToolsVersion = 10.0;
-					};
-					99072C76211AB925008F4DCB = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 99072C62211AB924008F4DCB;
-					};
-					99072C81211AB925008F4DCB = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 99072C62211AB924008F4DCB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -218,8 +129,6 @@
 			projectRoot = "";
 			targets = (
 				99072C62211AB924008F4DCB /* Radio */,
-				99072C76211AB925008F4DCB /* RadioTests */,
-				99072C81211AB925008F4DCB /* RadioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,23 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99072C71211AB925008F4DCB /* LaunchScreen.storyboard in Resources */,
-				99072C6E211AB925008F4DCB /* Assets.xcassets in Resources */,
-				99072C6C211AB924008F4DCB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99072C75211AB925008F4DCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99072C80211AB925008F4DCB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				994D7434211EB4D00018C6BF /* LaunchScreen.storyboard in Resources */,
+				990AE297211C31B600B084C2 /* Assets.xcassets in Resources */,
+				994D7438211EB51D0018C6BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,58 +153,12 @@
 			files = (
 				99072C69211AB924008F4DCB /* ViewController.swift in Sources */,
 				99072C67211AB924008F4DCB /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99072C73211AB925008F4DCB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99072C7C211AB925008F4DCB /* RadioTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99072C7E211AB925008F4DCB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				99072C87211AB925008F4DCB /* RadioUITests.swift in Sources */,
+				99072CA2211ACADA008F4DCB /* RadioStation.swift in Sources */,
+				99072C99211AC098008F4DCB /* StationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		99072C79211AB925008F4DCB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 99072C62211AB924008F4DCB /* Radio */;
-			targetProxy = 99072C78211AB925008F4DCB /* PBXContainerItemProxy */;
-		};
-		99072C84211AB925008F4DCB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 99072C62211AB924008F4DCB /* Radio */;
-			targetProxy = 99072C83211AB925008F4DCB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		99072C6A211AB924008F4DCB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99072C6B211AB924008F4DCB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		99072C6F211AB925008F4DCB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99072C70211AB925008F4DCB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		99072C89211AB925008F4DCB /* Debug */ = {
@@ -344,7 +193,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Palade Catalin (556JYUKVPG)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -363,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -405,7 +254,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Palade Catalin (556JYUKVPG)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -418,9 +267,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -432,17 +282,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 556JYUKVPG;
 				INFOPLIST_FILE = Radio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TotoTest.Radio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catalinpalade.profm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,99 +303,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 556JYUKVPG;
 				INFOPLIST_FILE = Radio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = TotoTest.Radio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catalinpalade.profm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		99072C8F211AB925008F4DCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 556JYUKVPG;
-				INFOPLIST_FILE = RadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TotoTest.RadioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio.app/Radio";
-			};
-			name = Debug;
-		};
-		99072C90211AB925008F4DCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 556JYUKVPG;
-				INFOPLIST_FILE = RadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TotoTest.RadioTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio.app/Radio";
-			};
-			name = Release;
-		};
-		99072C92211AB925008F4DCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 556JYUKVPG;
-				INFOPLIST_FILE = RadioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TotoTest.RadioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Radio;
-			};
-			name = Debug;
-		};
-		99072C93211AB925008F4DCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 556JYUKVPG;
-				INFOPLIST_FILE = RadioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = TotoTest.RadioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Radio;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -563,24 +337,6 @@
 			buildConfigurations = (
 				99072C8C211AB925008F4DCB /* Debug */,
 				99072C8D211AB925008F4DCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99072C8E211AB925008F4DCB /* Build configuration list for PBXNativeTarget "RadioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99072C8F211AB925008F4DCB /* Debug */,
-				99072C90211AB925008F4DCB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99072C91211AB925008F4DCB /* Build configuration list for PBXNativeTarget "RadioUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99072C92211AB925008F4DCB /* Debug */,
-				99072C93211AB925008F4DCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
